@@ -1,5 +1,13 @@
 body{
-    font-family: arial;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 20px;
 }
 
 .todo-grid,.todo-input-grid{
@@ -8,8 +16,7 @@ body{
     column-gap: 10px;
     row-gap: 10px;
     align-items: center;
-    
-
+    justify-content: center;
 }
 .todo-input-grid{
     margin-bottom: 10px;
